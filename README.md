@@ -11,7 +11,7 @@ I found a WORKING guide at https://gorails.com/setup/ubuntu/22.04
 This guide uses version manager called ASDF
   https://asdf-vm.com/
 
-# setup git
+# setup git and setup Postgres
 https://gorails.com/setup/ubuntu/22.04
 
   
@@ -47,6 +47,6 @@ https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-wi
 https://guides.rubyonrails.org/getting_started.html
 general into modifying Ruby on Rails app
 
-# setup git
+# setup git and setup Postgres
 https://gorails.com/setup/ubuntu/22.04
 
