@@ -11,6 +11,11 @@ I found a WORKING guide at https://gorails.com/setup/ubuntu/22.04
 This guide uses version manager called ASDF
   https://asdf-vm.com/
 
+# setup git
+https://gorails.com/setup/ubuntu/22.04
+
+  
+
 # FEDORA 38 server
 The steps worked for Fedora 38 server using RVM
 # 1st these steps
@@ -41,4 +46,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-wi
 # 5th
 https://guides.rubyonrails.org/getting_started.html
 general into modifying Ruby on Rails app
+
+# setup git
+https://gorails.com/setup/ubuntu/22.04
 
