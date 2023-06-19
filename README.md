@@ -50,3 +50,25 @@ general into modifying Ruby on Rails app
 # setup git and setup Postgres
 https://gorails.com/setup/ubuntu/22.04
 
+setup Postgress
+# Add REPO https://computingforgeeks.com/install-postgresql-database-fedora-linux/
+sudo dnf -y install https://download.postgresql.org/pub/repos/yum/reporpms/F-38-x86_64/pgdg-fedora-repo-latest.noarch.rpm
+then
+# https://www.itzgeek.com/how-tos/linux/fedora-how-tos/how-to-install-postgresql-on-fedora.html
+    1. sudo dnf update --refresh
+    2. sudo dnf install -y postgresql15-server
+    3. sudo /usr/pgsql-15/bin/postgresql-15-setup initdb
+    4. sudo systemctl enable --now postgresql-15
+    5. sudo systemctl status postgresql-15
+    6. $ sudo su -l postgres
+    7. $ psql
+    8. postgres=# \password  "for dev env used postgres"
+    9. sudo su - postgres -c "chris"
+    10. sudo su - postgres -c "createdb testdb"
+    11. sudo -u postgres psql
+    12. GRANT ALL PRIVILEGES ON DATABASE tetdb TO chris;
+    13. paql testdb
+    14. \du
+    
+# INSTALL https://docs.fedoraproject.org/en-US/quick-docs/postgresql/
+sudo -i -u postgres
