@@ -1,12 +1,12 @@
 # wyse-ruby-on-rails
 Setup native Ruby On Rails on a Wyse 5070 thin client
 
-I wanted to install Ruby on Rails v7.0.5 and not using docker containers on the Wyse 5070 think client
+I wanted to install Ruby on Rails v7.0.5 and not using docker containers on the Wyse 5070 thin client
 I had lots of trouble using the https://guides.rubyonrails.org/getting_started.html
     when I got to the $ gem install rails
     everytime the OS couldn't connect to download the gems and I found many people having similar errors.
 
-# UBUNTU 22.04 server
+# Installed UBUNTU 22.04 server
 I found a WORKING guide at https://gorails.com/setup/ubuntu/22.04
 This guide uses version manager called ASDF
   https://asdf-vm.com/
@@ -16,7 +16,7 @@ https://gorails.com/setup/ubuntu/22.04
 
   
 
-# FEDORA 38 server
+# Installed FEDORA 38 server
 The steps worked for Fedora 38 server using RVM
 # 1st these steps
 https://tutorialforlinux.com/2023/03/12/rvm-fedora-38-installation-step-by-step-guide/2/
